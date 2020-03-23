@@ -1,0 +1,2 @@
+include ':app', ':senden2', ':Senden-Library'
+rootProject.name='Senden'
