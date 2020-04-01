@@ -53,7 +53,7 @@ protected void onPause() {
 
 # Server Side
 ```
-SendenService wroupService = SendenService.getInstance(getApplicationContext());
+SendenService sendenService = SendenService.getInstance(getApplicationContext());
 SendenService.registerService("Group Name", new ServiceRegisteredListener() {
     
     @Override
